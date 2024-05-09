@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*Vamos familiarizar isso*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    background-color: green;
+    height: 100vh;
+    width: 100vw ;
+}
+
+ 
+
+/*Alinhamento de elementos*/
+nav{
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+display: flex;
+ justify-content: center;
+ overflow: hidden;
+}
+
+h1{
+    color: white;
+}
+
+/*Conteudo principal`*/
+main{
+    display: flex;
+   justify-content: center;
+}
+
+/*Caixa de login*/
+#login{
+    height: 500px;
+    width: 250px;
+    background-color: white;
+    border-radius:20px; 
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451) ;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease; /*Para ele dar uma suavizada durante a animação, ele não vai acelerar nem desacelerar na mesma velocidade*/ 
+}
+
+/*Imagem que vai ficar dentro da caixa de login*/
+#imagem{
+    height: 200px;
+    background-image: url(login.jpg);
+    background-size: cover;
+    display: block;
+     
+     
+}
+
+.conteudologin{
+    display: block;
+    padding: 10px;
+}
+ 
+ 

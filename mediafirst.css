@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*Criamos o mediafirst com o objectivo de desenvolver para tablet e pc*/
+
+/*Tipical device Breakpoints
+----------------------------
+Pequenas telas até: 600px
+celular de : 600px até 768px
+tablet de : 768px até 992px
+Desktop: de 992 até 1200px
+Grandes telas acima de :1200px */
+
+/*Para tablet*/
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(rgba(36, 128, 0, 0.253),green);
+    }
+
+    /*Vamos aumentar a largura da nossa caixa login para 80vw */
+    #login{
+        width: 80vw;
+    } 
+
+    #imagem{
+        float: left; /*A imagem flutua para esquerda */
+        width: 40%; /*Com largura de 30%*/
+        height: 100%; /*A altura irá ocupar a todo login*/
+        background-position: center; /*Endereitar a posição da imagem e centraliar*/
+       
+    }
+
+    .conteudologin{
+        
+        /*Flutua para direita */
+        width: 100%; /*Ele vai ocupar uma largura de 70%*/
+        
+         
+    }
+  
+}
+
+/*Vamos trazer responsividade para desktop*/
+ 
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: linear-gradient(rgba(36, 128, 0, 0.253),green);
+    }
+
+    #login{
+       width: 950px;
+    }
+
+    #imagem{
+        float: left;
+        width: 50% ;
+        height: 100%;
+        background-position: center; /*Endereitar a posição da imagem e centraliar*/
+      
+    }
+
+    .conteudologin{
+        
+        width: 100%;
+        
+    }
+}
