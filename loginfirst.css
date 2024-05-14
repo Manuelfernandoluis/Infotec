@@ -60,6 +60,29 @@ main{
 .conteudologin{
     display: block;
     padding: 10px;
+    
+     
 }
+
+.conteudologin>h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.conteudologin>p{
+    font: 0.8em; 
+}
+
+/*Alinhar os campos no centro e posteriormente vamos estilizar
+.campo{
+    display: flex;
+    justify-content: center;
+}
+
+.botão{
+    display: flex;
+    justify-content: center;
+}
+ 
  
  

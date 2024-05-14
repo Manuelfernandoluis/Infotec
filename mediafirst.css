@@ -47,11 +47,12 @@ Grandes telas acima de :1200px */
     }
 
     #login{
+        float:left ;
        width: 950px;
     }
 
     #imagem{
-        float: left;
+        float: right;
         width: 50% ;
         height: 100%;
         background-position: center; /*Endereitar a posição da imagem e centraliar*/
