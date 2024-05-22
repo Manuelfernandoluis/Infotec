@@ -65,3 +65,28 @@ Grandes telas acima de :1200px */
         
     }
 }
+
+/*Vamos ajustar telas maiores */
+@media screen and (min-width:1200px) and (max-width:1500px){
+    body{
+        background: linear-gradient(rgba(36, 128, 0, 0.253),green);
+    }
+
+     #login{
+        float: right;
+        width: 1050px;
+    }   
+        #imagem{
+            float: right;
+            width: 50%;/*Imagem terá uma largura de 50 % com o conteudo para poder ficar  meio*/
+            height: 100%;
+            background-position: center;/*Endereitar a posição da imagem e centraliar*/
+        }
+
+        .conteudologin{
+            width: 100%;
+        }
+
+
+
+}
