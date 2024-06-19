@@ -29,6 +29,12 @@ h1{
     color: white;
 }
 
+ 
+
+.t{
+    font-size: 0.8em;/*Vamos reduzir o tamanho dos paragrafos */
+}
+
 /*Conteudo principal`*/
 main{
     display: flex;
@@ -37,7 +43,8 @@ main{
 
 /*Caixa de login*/
 #login{
-    height: 500px;
+    position: absolute;
+    height: 536px;
     width: 250px;
     background-color: white;
     border-radius:20px; 
@@ -45,6 +52,8 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451) ;
     transition: width .3s, height .3s;
     transition-timing-function: ease; /*Para ele dar uma suavizada durante a animação, ele não vai acelerar nem desacelerar na mesma velocidade*/ 
+   
+ 
 }
 
 /*Imagem que vai ficar dentro da caixa de login*/
@@ -57,6 +66,7 @@ main{
      
 }
 
+ /*Para colocar todos elementos dentro do conteudo login centralizado num bloco*/
 .conteudologin{
     display: block;
     padding: 10px;
@@ -66,7 +76,6 @@ main{
 
 .conteudologin>h2{
     text-align: center;
-    padding: 10px;
 }
 
 .conteudologin>p{
@@ -84,7 +93,53 @@ main{
     justify-content: center;
 }*/
 
+/*
+ div.campo{
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+} 
+
+/*Vamos colocar um em cima do outro ou seja a letra por cima do campo */
+.campinho{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+/*Vamos editar um pouco o login */
+#ilogin{
+      
+      height: 40px;
+     width: 100%;
+     border-radius: 5px;
+      
+}
+
+#ilogin1{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+      
+}
+
+.sim{
+    font-size: 10px;
+}
+
+ #botao{
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    font-size: 1em;
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2px;
+ }
 
  
- 
+
  

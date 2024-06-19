@@ -20,28 +20,37 @@
      </div>
 
      <div class="conteudologin">
-        <h2 class="t">Login</h2>
+        <h2>Login</h2>
         <p class="t"> Seja bem vindo(a) novamente. Faça o login para poder acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
-    </div>
+    
         <form action="login.php" method="post" id="formulario">
 
             <div class="campo">
-                <label for="ilogin">E-mail</label>
+
+                <div class="campinho">
+
+                <label for="ilogin"><p class="email"><p class="sim">E-mail</p></label>
                 <input type="email" name="login" id="ilogin" autocomplete="email" required placeholder="seu e-mail" maxlength="30">
+
+                </div>
             </div>
+         
 
             <div class="campo">
-                <label for="ilogin">Senha</label>
-                <input type="password" name="login" id="ilogin" autocomplete="current-password" placeholder="sua senha" minlength="8" maxlength="20">
+                <div class="campinho">
+
+                <label for="ilogin"><p class="sim">Senha</p></label>
+                <input type="password" name="login" id="ilogin1" autocomplete="current-password" placeholder="sua senha" minlength="8" maxlength="20">
+                </div>
+
+
+                
             </div>
-
-            <div class="botão">
-            <input type="submit" value="enviar">
-            <a href="">esqueci a senha</a>
-        </div>
         </form>
+        <input type="submit" value="enviar" id="botao">
+                <a href=""   class="recuperar">esqueci a senha</a>
+            </div>       
 </section>
-
  </main>
 
  <script src="loginfirst.js">
